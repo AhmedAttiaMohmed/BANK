@@ -10,7 +10,7 @@
     {
         $errors["pw"] = "Password is required";
     }
-    else{
+    else if($_REQUEST["pw"] != $_REQUEST["pc"]){
         $errors["pc"] = "password And Password Confirmation must be equal";
     }
 
