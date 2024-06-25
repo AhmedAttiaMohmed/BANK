@@ -11,12 +11,6 @@
     <div class="form-floating">
       <input type="text" name="name" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Name</label>
-      <?php
-      
-        ?>
-      
-      <?php
-      ?>
     </div>
     <div class="form-floating">
       <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">

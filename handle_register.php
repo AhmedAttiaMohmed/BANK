@@ -27,7 +27,13 @@
     }
 
     if(!empty($errors)){
-        header("location:index.php");
+        require_once("classes.php");
+        try {
+            require_once("classes.php");
+            $_SESSION["user"] = Subscriber::register($name,$email,$address,$phone,$VIC,$password);
+        } catch (\Throwable $th) {
+            header("location:index.php?msg = sr");
+        }
     }
     else{
         $_SESSION["errors"] = $errors;
