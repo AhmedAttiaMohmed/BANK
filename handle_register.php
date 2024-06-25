@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $errors = [];
     if(empty($_REQUEST["name"])) $errors["name"] = "name is required";
     if(empty($_REQUEST["email"])) $errors["email"] = "Email is required";
@@ -25,7 +26,7 @@
         $errors["email"] = "Email is invalid format please add aadd@gmail.com";
     }
 
-    if(!empty($errors)){
+    if(empty($errors)){
         header("location:index.php");
     }
     else{
