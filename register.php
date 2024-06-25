@@ -159,7 +159,7 @@
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
     <div class="form-floating">
-      <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input type="text" name="name" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Name</label>
       <?php
       
@@ -169,27 +169,27 @@
       ?>
     </div>
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email</label>
     </div>
     <div class="form-floating">
-      <input type="address" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input type="text" name="address" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Address</label>
     </div>
     <div class="form-floating">
-      <input type="phone" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input type="text" name="phone" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Phone</label>
     </div>
     <div class="form-floating">
-      <input type="vic" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <input type="text" name="vic" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">VIC number</label>
     </div>
     <div class="form-floating">
-      <input type="pw" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" name="pw" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
     <div class="form-floating">
-      <input type="pc" class="form-control" id="floatingPassword" placeholder="Password">
+      <input type="password" name="pc" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password Confirmation</label>
     </div>
 
